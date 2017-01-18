@@ -1,0 +1,76 @@
+.about_beauty{
+padding:70px 0;
+background-color: lightgrey;
+}
+.title_about_g{
+text-align:center;
+margin-bottom: 70px;
+}
+.title_about, .descr_about{
+	text-align: center;
+
+}
+.fa-heart-o{
+	font-size: 33px;
+margin-left: 12px;
+margin-top: 16px;
+}
+.icon{
+	display: inline-block;
+	
+	width: 30px;
+height: 30px;
+margin-left: 15px;
+
+margin-top: 12px;
+}
+.descr_about{
+	font-family: 'RobotoLight';
+	line-height: 1.8;
+}
+@font-face {
+		font-family: 'RobotoLight';
+		src: url('fonts/RobotoLight/RobotoLight.eot');
+		src: url('fonts/RobotoLight/RobotoLight.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/RobotoLight/RobotoLight.woff') format('woff'),
+			 url('fonts/RobotoLight/RobotoLight.ttf') format('truetype'),
+			 url('fonts/RobotoLight/RobotoLight.svg#FontName') format('svg');
+		font-style: normal;
+		font-weight: normal;
+	}
+	.around_png{
+		width: 60px;
+		height: 60px;
+		border-radius: 50% ;
+		border-width: 1px;
+		border-style: solid ;
+		border-top-color:red; 
+		border-bottom-color: green;
+		margin: 0 auto;
+	}
+
+	[class^="icon-"]::before, [class*=" icon-"]::before {
+    font-family: "love";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    opacity: .8;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+   
+    font-size: 120%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+    font-size: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+

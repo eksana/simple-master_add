@@ -1,0 +1,65 @@
+.get_in_toch{
+	text-align: center;
+}
+.title__get_in_toch{
+	text-align: center;
+	padding: 70px 0;
+}
+.toch__wrap_for_img-nail{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: url('../img/beauty_img/nail1.jpg') no-repeat center center;
+}
+.toch__wrap_for_img-hear{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: url('../img/beauty_img/wedding.jpg') no-repeat center right;
+}
+.toch__wrap_for_img-makeup{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: url('../img/beauty_img/eye.jpg') no-repeat center left;
+}
+.title__toch{
+	margin-top: 30%;
+	text-align: center;
+}
+.home-descr-link__toch{
+	display: inline-block;
+	margin-top: 30%;
+	text-align: center;
+	
+	padding: 17px 50px;
+	border-radius: 7px;
+	background-color: $maincolor;
+	/*  opacity:.7;*/
+	position: relative;
+	z-index:2;
+	color: #FFF;
+	&:hover,&:focus{
+		background-color: lighten( $maincolor,15%);
+		 transition:all 1s;
+
+		
+	}
+}
+@media only screen and (max-width:920px){
+	.home-descr-link__toch{
+		margin-top: 10%;
+	}
+	.title__toch {
+    margin-top: 10%;
+}
+}
+.toch_wrap{
+	padding: 20px 0;
+	border:1px solid grey;
+	border-radius: 7px;
+	margin-bottom: 20px;
+}

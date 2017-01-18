@@ -1,0 +1,138 @@
+.foot-icon{
+	width: 65px;
+	height: 65px;
+	background-color: #FFF;
+	border-radius:50%;
+	float: left;
+	cursor: pointer;
+	margin-left: 23px;
+	&:hover,&:focus{
+		/*background-color: lighten( $redcolor,5%);*/
+
+		color: $maincolor;
+		-webkit-transition: all 1s;
+		   -moz-transition: all 1s;
+		    -ms-transition: all 1s;
+		     -o-transition: all 1s;
+		        transition: all 1s;
+		
+	}
+		
+	
+}
+.foot{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+background-color: #222;
+}
+.foot-cont{
+	width: 40%;
+	/*width: 100%;*/
+	height: 70px;
+	margin: 0 auto;
+}
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-yelp{
+	font-size: 25px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.foot-ul{
+	color: #FFF;
+	margin-right: 80px;
+	margin-top: 80px;
+	cursor: pointer;
+}
+.foot-ul li{
+	display: inline-block;
+	list-style-type: none;
+	
+	margin-left: 27px;
+}
+.foot-sp{
+	display: inline-block;
+	margin-top: 70px;
+	color: #FFF;
+	
+}
+@media only screen and (max-width:1000px){
+	.foot-cont{
+text-align: center;
+	width: 60%;
+	}
+	.foot-icon{
+		margin-left: 33px;
+		width: 55px;
+		height: 55px;
+	}
+	
+	
+}
+@media only screen and (max-width:660px){
+	.foot-cont{
+text-align: center;
+width: 60%;
+	}
+	.foot-icon{
+		
+		width: 55px;
+		height: 55px;
+		margin-left: 23px;
+		
+	}
+	
+}
+@media only screen and (max-width:594px){
+	.foot-cont{
+text-align: center;
+width: 80%;
+	}
+	.foot-icon{
+		
+		width: 55px;
+		height: 55px;
+		
+	}
+	
+}
+@media only screen and (max-width:457px){
+	.foot-cont{
+text-align: center;
+width: 80%;
+	}
+	.foot-icon{
+		
+		width: 45px;
+		height: 45px;
+		
+	}
+	.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-yelp{
+	font-size: 25px;
+	margin-top: 12px;
+}
+	
+}
+@media only screen and (max-width:457px){
+	.foot-cont{
+
+width: 100%;
+	}
+	.foot-ul{
+	
+	margin-right: 80px;
+	margin-top: 30px;
+	
+}
+.foot-sp{
+	
+	margin-top: 30px;
+	
+}
+	
+}

@@ -1,0 +1,94 @@
+.testimonial{
+	padding: 120px 0;
+	
+
+
+	width: 100%;
+	
+	padding: 70px 0;
+	background: url(block/../../img/otz.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	text-align: center;
+}
+.otzivi__title{
+	font-size: 30px;
+	color: #222;
+	
+}
+.cardswrap__wrapforeach{
+	width: 100%;
+	
+	background-color: #FFF;
+	padding: 80px 40px 50px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+	border:2px solid red;
+}
+.cardswrap__card{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	top:-80px;
+	left: 50%;
+	margin-left: -120px;
+}
+.btn--border{
+
+	border:2px solid #fff;
+	background-color: transparent;
+	padding-left: 19px;
+	
+}
+.datawrap{
+	margin-top: 20px;
+}
+
+.cardswrap__ar1{
+	width: 30px;
+	height: 50px;
+	margin-top: 20vh;
+	
+	
+	background: url(../img/arr1.png)no-repeat;
+}
+
+.cardswrap__ar2{
+	width: 30px;
+	height: 50px;
+	margin-top: 20vh;
+	
+	background: url(../img/arl2.png)no-repeat;
+}
+.otzivi__wrap{
+	position: relative;
+	border:2px solid yellow;
+	
+	
+}
+
+@media only screen and (max-width : 768px) {
+	.main-header__inner{
+		text-align: center;
+	}
+	
+	.mybtn{
+		margin-top: 30px;
+		
+	}
+	.butwrap{
+		text-align: center;
+	}
+	.foot__wrap{
+		margin: 30px 0;
+	}
+	.foot{
+		margin-top: 0;
+	}
+.cardswrap__wrapforeach {
+	margin-bottom: 130px;
+}
+}
+

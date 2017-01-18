@@ -1,0 +1,35 @@
+
+	@import '../fonts/font-awesome/css/font-awesome.min.css';
+	@import '../fonts/love/css/love.css';
+	@import 'bootstrap-grid.css';
+
+	@import 'variables_index.scss';
+	@import '../blocks_index/header_index/header_index.scss';
+	@import '../blocks_index/footer_index/foot_index.scss';
+	/*@import '../blocks/header.scss';
+	@import '../blocks/feature/feature.scss';
+	@import '../blocks/topUp/top_up.scss';
+	@import '../blocks/comunity/comunity.scss';
+	@import '../blocks/otz/otz.scss';
+	@import '../blocks/arrive/arrive.scss';
+	@import '../blocks/footer/foot.scss';
+	@import '../blocks/feature2/feature2.scss';
+	@import '../blocks/general/general.scss';
+	@import '../blocks/section_about_beauty/section_about_beauty.scss';
+	@import "node_modules/susy/sass/susy.scss";
+	@import '../blocks/section_mixitup_forbeauty/mixitup_forbuty.scss';
+	@import '../blocks/form_hidden/form_hidden.scss';
+	@import '../blocks/testimonial/testimonial.scss';
+	@import '../blocks/action/action.scss';
+	@import '../blocks/action_animate/action_animate.scss';
+	@import '../blocks/get_in_toch/get_in_toch.scss';
+	@import 'fonts.css';*/
+	
+	body{
+		font-size: 16px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		   
+		 
+	}

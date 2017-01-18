@@ -1,0 +1,89 @@
+.half_item3{
+	display: inline-block;
+ 
+
+	
+}
+.half_item-inner3{
+		display: inline-block;
+	padding: 10px 20px 60px;
+	
+}
+.top_header3{
+  position:relative;
+  width: 980px;
+}
+    .half_item3{
+      
+	display: inline-block;
+width: 10%;
+	
+}
+.half_item-inner3{
+		display: inline-block;
+	padding: 10px 20px 60px;
+  list-style-type:none;
+}
+    
+/*.effect {
+    position: absolute;
+    left: -12.5%;
+    transition: 0.7s ease-in-out;
+}*/
+
+/*  .main-nav__item:nth-child(1):hover ~ .effect {
+    left: 12.5%;}*/
+
+    /* середина первого <a> */
+/*.main-nav__item:nth-child(2):hover ~ .effect {
+    left: 37.5%; }*/
+
+    /* середина второго <a> */
+/*.main-nav__item:nth-child(3):hover ~ .effect {
+    left: 62.5%;}*/
+    /* середина третьего <a> */
+
+/*.main-nav__item:nth-child(4):hover ~ .effect {
+    left: 87.5%;}*/
+    /* середина четвертого <a> */
+/*-----lava-lamp-effect---------------------*/
+
+.effect {
+    width: 60px;
+    height: 2px;
+    bottom: 36px;
+    background: #c6342e;
+    box-shadow: 0 1px 0 white;
+   
+}
+.effect {
+    position: absolute;
+    left: -2%;
+    transition: 0.7s ease-in-out;
+   
+}
+  .half_item3:nth-child(1):hover ~ .effect {
+    left: 6%;}
+
+    /* середина первого <a> */
+.half_item3:nth-child(2):hover ~ .effect {
+    left: 16%; }
+
+    /* середина второго <a> */
+.half_item3:nth-child(3):hover ~ .effect {
+    left: 27%;}
+    /* середина третьего <a> */
+
+.half_item3:nth-child(4):hover ~ .effect {
+    left: 35%;}
+    /* середина четвертого <a> */
+    
+  .half_item3:nth-child(5):hover ~ .effect {
+    left: 46%;}
+     .half_item3:nth-child(6):hover ~ .effect {
+    left: 57%;}
+    /* середина четвертого <a> */
+/*	---------------------------------------*/
+	
+	
+	

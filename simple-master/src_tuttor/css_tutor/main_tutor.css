@@ -1,0 +1,5 @@
+@import url(bootstrap-grid.css);
+body {
+  background-color: green; }
+
+/*@import '../blocks/home.scss';*/

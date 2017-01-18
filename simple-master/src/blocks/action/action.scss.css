@@ -1,0 +1,49 @@
+.wrap_for_action{
+	text-align: center;
+}
+.action_title{
+	font-family: Roboto;
+
+}
+.action{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+}
+.nav_action{
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.home-descr-link{
+	padding: 17px 50px;
+	border-radius: 7px;
+	background-color: $maincolor;
+	/*  opacity:.7;*/
+	position: relative;
+	z-index:2;
+	color: #FFF;
+	&:hover,&:focus{
+		background-color: lighten( $maincolor,15%);
+		 transition:all 1s;
+
+		
+	}
+}
+.nav_item{
+	line-height: 2;
+	list-style-image: url('../img/check.png');
+}
+.fa-check{
+	float: left;
+	margin-right: 10px;
+	font-size: 30PX;
+	color: $greencolor;
+}
+.action_wrap{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 300px;
+	background: url('../img/beauty_img/cosmetics.jpg')no-repeat;
+}
